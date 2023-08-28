@@ -153,6 +153,7 @@ vmin_split, "\t",
 vmin_bucket, "\t",
 ganancia_promedio, "\n"
 )
+cat("interaccion", vmax_depth,"-",vmin_split,"-",vcp,"-",vmin_bucket,"-Ganancia promedio", ganancia_promedio,"\n")
             }
         }
     }
