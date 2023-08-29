@@ -125,10 +125,10 @@ sep = "",
 
 # itero por los loops anidados para cada hiperparametro
 
-for (vcp in c(-1, -0.5)) {
-    for (vmax_depth in c(4, 6, 8, 10, 12, 14)) {
-        for (vmin_split in c(1200, 1000, 800, 600, 400, 200, 100, 50, 20, 10)) {
-            for (vmin_bucket in c(2,4,8,16, 32, vmin_split/4)) {
+for (vcp in c(-1, -0.8, -0.4)) {
+    for (vmax_depth in c(4, 6, 8, 10, 12, 14,16)) {
+        for (vmin_split in c(1200, 1000, 800, 700, 400, 300, 100, 50, 20, 10)) {
+            for (vmin_bucket in c(4, 8, 32, 80, 200, vmin_split/4)) {
 # notar como se agrega
 
 # vminsplit minima cantidad de registros en un nodo para hacer el split. Parametros del arbol que los crea e param basicos.
